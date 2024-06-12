@@ -1,0 +1,154 @@
+/* Bootstrap Link */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/* Font Link */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap'); */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Syne", sans-serif;
+  color: var(--text-color);
+  box-sizing: border-box;
+  
+}
+
+:root {
+  --bg-color: #191f36;
+  --text-color: #fff;
+}
+
+body {
+  background: var(--bg-color);
+  overflow-x: hidden; 
+  
+}
+
+section {
+  padding-top: 6rem;
+}
+
+.home-section {
+  padding-top: 6rem;
+}
+
+.bio-section {
+  padding-top: 15rem;
+}
+
+.card-bio {
+  height: 150px;
+  padding: 1rem;
+}
+
+.number {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+}
+
+.number i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+
+.number p span {
+  font-weight: 300;
+  color: #fff;
+  font-size: 0.5em;
+}
+
+.number i  p {
+  font-weight: 300;
+  font-size: 0.75em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card {
+  background-color: transparent;
+  border: 1px solid #fbfbfb;
+  transition: box-shadow 0.2s ease-in-out, border 0.2s ease-in-out;
+  color: white;
+}
+
+.card:hover {
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 20px 1px #fff;
+}
+
+.medsos-section {
+  padding-top: 6rem;
+}
+
+.card {
+  background-color: transparent;
+  border: 1px solid #010000;
+  transition: box-shadow 0.2s ease-in-out, border 0.2s ease-in-out;
+  color: white;
+}
+
+.card:hover {
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 20px 1px #fff;
+}
+
+.card-medsos {
+  padding: 1rem;
+}
+
+.btn {
+  border: 1px solid #71cdf1;
+  color: #ffffff;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px 1px #d3d3d3;
+  background-color: #0957ff;
+}
+
+.footer {
+  background-color: #010000;
+  color: white;
+  width: 100%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s ease-in-out;
+  text-shadow: none;
+  transition: text-shadow 0.1s ease-in-out;
+ 
+}
+
+.footer a:hover {
+  color: #0957ff;
+  text-shadow: 0 0 10px #0957ff;
+}
+
+.footer-link-item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #979797;
+}
+
+.footer-links {
+  padding-left: 0;
+}
+
+.copyright-text {
+  margin-top: 20px;
+}
