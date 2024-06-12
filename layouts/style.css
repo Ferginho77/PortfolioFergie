@@ -91,7 +91,7 @@ section {
 
 .card {
   background-color: transparent;
-  border: 1px solid #010000;
+  border: 1px solid #f5f2f2;
   transition: box-shadow 0.2s ease-in-out, border 0.2s ease-in-out;
   color: white;
 }
