@@ -43,6 +43,22 @@ section {
   height: 150px;
   padding: 1rem;
 }
+.bio-section .card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bio-section img {
+  display: block;
+  margin: 0 auto;
+}
+
+.bio-section h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
 
 .number {
   position: absolute;
@@ -86,8 +102,8 @@ section {
 }
 
 .card:hover {
-  border: 1px solid #5eff00;
-  box-shadow: 0px 0px 20px 1px #5eff00;
+  border: 1px solid #ffff;
+  box-shadow: 0px 0px 20px 1px #ffff;
 }
 
 .medsos-section {
@@ -103,7 +119,7 @@ section {
 
 .card:hover {
   border: 1px solid #fff;
-  box-shadow: 0px 0px 20px 1px #5eff00;
+  box-shadow: 0px 0px 20px 1px #ffffff;
 }
 
 .card-medsos {
@@ -157,4 +173,12 @@ section {
 
 .copyright-text {
   margin-top: 20px;
+}
+
+.project-title {
+  color: #333;
+  font-weight: bold;
+}
+.project-section {
+  padding: 50px 0;
 }
